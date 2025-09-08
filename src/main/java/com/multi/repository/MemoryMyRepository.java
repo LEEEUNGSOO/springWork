@@ -7,4 +7,11 @@ public class MemoryMyRepository implements MyRepository {
 //        //UpCastring,DownCastring,Polymorphism
 //        MyRepository myRepository = new MemoryMyRepository();
 //    }
+
+        @Override
+        public String getMessage(String name) {
+            return "Hello, " + name;
+        }
+
+
 }
