@@ -17,8 +17,9 @@ public class HomeController {
 
         return "home"; // /WEB-INF/views/home.jsp
     }
-    @GetMapping("/messsage")
+    @GetMapping("/message")
     public String msg(Model model){
+        model.addAttribute("msg", "hi....");
         return "hi";
     }
 

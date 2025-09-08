@@ -1,0 +1,10 @@
+package com.multi.repository;
+
+public class MemoryMyRepository implements MyRepository {
+
+
+//    public static void main(String[] args) {
+//        //UpCastring,DownCastring,Polymorphism
+//        MyRepository myRepository = new MemoryMyRepository();
+//    }
+}
