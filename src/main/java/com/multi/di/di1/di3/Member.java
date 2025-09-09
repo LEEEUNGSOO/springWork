@@ -1,0 +1,17 @@
+package com.multi.di.di1.di3;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+//보일러 프레이트코드
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Member {
+    private Long id;
+    private String name;
+
+
+}
