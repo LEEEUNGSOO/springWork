@@ -1,4 +1,4 @@
-package com.multi.di.di1.di3;
+package com.multi.di.di3;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

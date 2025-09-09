@@ -1,6 +1,6 @@
-package com.multi.di.di1.di2;
+package com.multi.di.di2;
 
-public class UserDaoJdbcImp implements UserDao{
+public class UserDaoIbatisImp implements UserDao {
     @Override
     public void insert() {
 

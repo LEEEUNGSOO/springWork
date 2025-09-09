@@ -1,4 +1,4 @@
-package com.multi.di.di1.di3;
+package com.multi.di.di3;
 
 public class MemberService {
     private final MemberRepository memberRepository;
