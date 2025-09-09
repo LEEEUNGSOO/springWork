@@ -5,6 +5,9 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class MemoryMemberRepository implements MemberRepository {
     private final Map<Long,Member> store = new ConcurrentHashMap<>();
+    public MemoryMemberRepository(){
+        System.out.println("MemoryMemberRepository");
+    }
     @Override
     public void save(Member member) {
         store.put(member.getId(), member);

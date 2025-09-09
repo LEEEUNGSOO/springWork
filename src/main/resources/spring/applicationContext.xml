@@ -9,7 +9,7 @@
         <constructor-arg ref="memberRepository"/>
     </bean>
 
-    <bean id="memberServiceWithSetter" class="com.multi.di.di3.MemberServiceWithSetter">
+    <bean id="memberServiceWithSetter" class="com.multi.di.di3.MemberServiceWithSetter" scope="prototype">
         <property name="memberRepository" ref="memberRepository"/>
     </bean>
 </beans>
