@@ -8,8 +8,12 @@
     <context:annotation-config/>
     <context:component-scan base-package="com.multi.di.di6"/>
     <context:property-placeholder location="/spring/dbserver.properties"/>
-    <bean id="server1" class="com.multi.di.di6.DbServer" scope="singleton" p:serverName="${}">
+    <bean id="server1" class="com.multi.di.di6.DbServer" scope="singleton" p:serverName="${com.multi.serverName1}">
 
     </bean>
 
 </beans>
+<!--        com.multi.serverName1=MultiServer1-->
+<!--        com.multi.severUrl1=www.naver.com1-->
+<!--        com.multi.serverPort1=9000-->
+<!--        com.multi.connectionCount1=90000-->
