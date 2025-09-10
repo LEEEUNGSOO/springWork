@@ -2,9 +2,11 @@ package com.multi.di.di5;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope(value = "singleton")
 public class BookStore {
 
     @Autowired
@@ -14,7 +16,7 @@ public class BookStore {
     public BookStore() {
     }
     @Autowired
-    public BookStore(@org.springframework.beans.factory.annotation.Qualifier("b1") Book book) {
+    public BookStore(@org.springframework.beans.factory.annotation.Qualifier("b2") Book book) {
         this.book = book;
     }
 
