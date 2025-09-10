@@ -10,7 +10,6 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 @Data
-
 public class PersonCollection {
     private List<Person> list;
     private Set<Person> set;
