@@ -7,7 +7,7 @@ public class BookMain {
 
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("/spring/book.xml");
-        System.out.println(applicationContext.getBean("book"));
+        System.out.println(applicationContext.getBean("bookStore"));
     }
 
 }
