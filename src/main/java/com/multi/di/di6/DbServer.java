@@ -12,7 +12,7 @@ public class DbServer {
     private String serverName;
     @Value("${com.multi.severUrl3}")
     private String serverUrl;      // XML에서 p:serverUrl=... 로 주입
-    @Value("${com.multi.serverPort2}")
+//    @Value("${com.multi.serverPort2}")
     private int serverPort;
     @Value("${com.multi.connectionCount3}")
     private int connectionCount;
