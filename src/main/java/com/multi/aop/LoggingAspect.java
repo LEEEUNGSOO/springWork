@@ -1,4 +1,4 @@
-package com.multi.aop.aop1;
+package com.multi.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
