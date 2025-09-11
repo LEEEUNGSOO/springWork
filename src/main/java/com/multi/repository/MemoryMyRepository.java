@@ -1,8 +1,6 @@
 package com.multi.repository;
 
-import org.springframework.stereotype.Repository;
-
-@Repository
+//@Repository
 public class MemoryMyRepository implements MyRepository {
 
 
