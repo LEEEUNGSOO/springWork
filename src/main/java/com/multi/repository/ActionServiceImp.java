@@ -7,6 +7,8 @@ public class ActionServiceImp implements ActionService{
 
     @Override
     public void showMessage() {//핵심소스
+        //error
+        //int rs=10/0;// Exception 발생
         System.out.println("showMessage 비즈니스 로직수행");
     }
     @Override
