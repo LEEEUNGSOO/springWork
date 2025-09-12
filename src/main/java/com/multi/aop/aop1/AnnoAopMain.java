@@ -1,4 +1,4 @@
-package com.multi.aop;
+package com.multi.aop.aop1;
 
 import com.multi.aop.aop2.AspectConfig;
 import org.springframework.context.ApplicationContext;

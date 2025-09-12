@@ -1,4 +1,4 @@
-package com.multi.aop;
+package com.multi.aop.aop1;
 
 import com.multi.service.MyService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
